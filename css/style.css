@@ -59,6 +59,8 @@ input[type="radio"].visually-hidden {
 }
 
 .site-logo {
+  width: 347px;
+  margin: 0 auto;
   margin-bottom: 40px;
 
   text-align: center;
@@ -81,4 +83,60 @@ input[type="radio"].visually-hidden {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.headline {
+  position: relative;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.headline::before {
+  content: '';
+
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 27px);
+
+  width: 55px;
+  height: 55px;
+
+  background-image: url("../img/hotel-icon.svg");
+}
+
+.headline-title {
+  position: absolute;
+  top: 135px;
+  left: calc(50% - 370px);
+
+  margin: 0;
+}
+
+.headline-title-link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.headline-image {
+  display: block;
+}
+
+.headline-description {
+  position: absolute;
+  top: 350px;
+  left: calc(50% - 230px);
+
+  max-width: 459px;
+  margin: 0;
+
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
 }
