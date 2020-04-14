@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+  min-width: 1440px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -90,6 +91,7 @@ input[type="radio"].visually-hidden {
 
   max-width: 1440px;
   margin: 0 auto;
+  margin-bottom: 45px;
 }
 
 .headline::before {
@@ -139,4 +141,56 @@ input[type="radio"].visually-hidden {
   line-height: 23px;
   text-align: center;
   color: #ffffff;
+}
+
+.reviews-title {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-right: -29px;
+  padding: 0;
+  padding-left: 5px;
+
+  list-style: none;
+}
+
+.reviews-item {
+  max-width: 371px;
+  margin-right: 29px;
+}
+
+.reviews-image {
+  display: block;
+  margin-bottom: 19px;
+}
+
+.reviews-item-title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.reviews-link {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.reviews-description {
+  max-width: 355px;
+  margin: 0;
 }
