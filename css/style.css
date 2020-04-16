@@ -54,14 +54,8 @@ input[type="radio"].visually-hidden {
   padding-top: 73px;
 }
 
-.main-header-nav {
-  display: flex;
-  flex-direction: column;
-}
-
 .site-logo {
-  width: 347px;
-  margin: 0 auto;
+  display: block;
   margin-bottom: 40px;
 
   text-align: center;
@@ -72,8 +66,8 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
+  margin-left: 5px;
   padding: 0;
-  padding-left: 5px;
 
   list-style: none;
 }
@@ -203,6 +197,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   z-index: -2;
 
+  margin-bottom: 50px;
   padding-top: 33px;
   padding-bottom: 37px;
 
@@ -302,4 +297,79 @@ input[type="radio"].visually-hidden {
   height: 25px;
 
   background-image: url("../img/arrow-icon.svg");
+}
+
+.main-footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  background-color: #575757;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 27px;
+
+  text-align: center;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 43px;
+  margin-left: 5px;
+  padding: 0;
+  padding-bottom: 43px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  list-style: none;
+}
+
+.footer-navigation-link {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 169px;
+  margin: 0 auto;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social-list-item {
+  margin-bottom: 10px;
+}
+
+.social-list-link {
+  display: block;
+  width: 47px;
+  height: 47px;
+
+  font-size: 0;
+
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-list-item:nth-child(1) .social-list-link {
+  background-image: url("../img/inst-icon.svg");
+}
+
+.social-list-item:nth-child(2) .social-list-link {
+  background-image: url("../img/fb-icon.svg");
+}
+
+.social-list-item:nth-child(3) .social-list-link {
+  background-image: url("../img/twitter-icon.svg");
 }
