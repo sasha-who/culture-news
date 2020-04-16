@@ -80,6 +80,15 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.site-navigation-link:hover,
+.site-navigation-link:focus {
+  color: #ff7931;
+}
+
+.site-navigation-link:active {
+  opacity: 0.7;
+}
+
 .headline {
   position: relative;
 
@@ -120,6 +129,15 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+.headline-title-link:hover,
+.headline-title-link:focus {
+  color: #ff7931;
+}
+
+.headline-title-link:active {
+  opacity: 0.7;
+}
+
 .headline-image {
   display: block;
 }
@@ -138,6 +156,9 @@ input[type="radio"].visually-hidden {
 }
 
 .reviews {
+  position: relative;
+  z-index: 1;
+
   padding-bottom: 52px;
 }
 
@@ -188,6 +209,15 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.reviews-link:hover,
+.reviews-link:focus {
+  color: #ff7931;
+}
+
+.reviews-link:active {
+  opacity: 0.7;
+}
+
 .reviews-description {
   max-width: 355px;
   margin: 0;
@@ -195,7 +225,6 @@ input[type="radio"].visually-hidden {
 
 .promo {
   position: relative;
-  z-index: -2;
 
   margin-bottom: 50px;
   padding-top: 33px;
@@ -210,7 +239,6 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: -70px;
   left: calc(50% - 353px);
-  z-index: -1;
 
   width: 707px;
   height: 707px;
@@ -220,6 +248,9 @@ input[type="radio"].visually-hidden {
 }
 
 .promo-wrapper {
+  position: relative;
+  z-index: 1;
+
   max-width: 370px;
   margin: 0 auto;
 }
@@ -284,6 +315,16 @@ input[type="radio"].visually-hidden {
 
   background-color: #ff7931;
   box-sizing: border-box;
+  cursor: pointer;
+}
+
+.watch-button:hover,
+.watch-button:focus {
+  opacity: 0.85;
+}
+
+.watch-button:active {
+  opacity: 0.7;
 }
 
 .watch-button::before {
@@ -300,6 +341,9 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
+  position: relative;
+  z-index: 1;
+
   padding-top: 35px;
   padding-bottom: 35px;
 
@@ -335,6 +379,15 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+  color: #ff7931;
+}
+
+.footer-navigation-link:active {
+  opacity: 0.7;
+}
+
 .social-list {
   display: flex;
   flex-wrap: wrap;
@@ -360,6 +413,15 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #ff7931;
+}
+
+.social-list-link:active {
+  opacity: 0.7;
 }
 
 .social-list-item:nth-child(1) .social-list-link {
