@@ -64,12 +64,16 @@ input[type="radio"].visually-hidden {
 .site-navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0;
+  margin-right: -52px;
   margin-left: 5px;
   padding: 0;
 
   list-style: none;
+}
+
+.site-navigation-item {
+  margin-right: 52px;
 }
 
 .site-navigation-link {
@@ -159,7 +163,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   z-index: 1;
 
-  padding-bottom: 52px;
+  margin-bottom: 22px;
 }
 
 .reviews-title {
@@ -189,6 +193,7 @@ input[type="radio"].visually-hidden {
 .reviews-item {
   max-width: 371px;
   margin-right: 29px;
+  margin-bottom: 30px;
 }
 
 .reviews-image {
@@ -311,6 +316,7 @@ input[type="radio"].visually-hidden {
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  word-break: break-word;
   color: #ffffff;
 
   background-color: #ff7931;
@@ -360,15 +366,16 @@ input[type="radio"].visually-hidden {
 .footer-navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0;
-  margin-bottom: 43px;
-  margin-left: 5px;
+  margin: 0 -52px 43px 5px;
   padding: 0;
   padding-bottom: 43px;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   list-style: none;
+}
+
+.footer-navigation-item {
+  margin-right: 52px;
 }
 
 .footer-navigation-link {
@@ -391,7 +398,6 @@ input[type="radio"].visually-hidden {
 .social-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 169px;
   margin: 0 auto;
   padding: 0;
@@ -400,7 +406,12 @@ input[type="radio"].visually-hidden {
 }
 
 .social-list-item {
-  margin-bottom: 10px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.social-list-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .social-list-link {
