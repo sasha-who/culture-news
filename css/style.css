@@ -96,9 +96,15 @@ input[type="radio"].visually-hidden {
 .headline {
   position: relative;
 
-  max-width: 1440px;
-  margin: 0 auto;
   margin-bottom: 45px;
+  padding-top: 135px;
+  padding-bottom: 47px;
+
+  background-image: url("../img/underwater-hotel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #132231;
 }
 
 .headline::before {
@@ -112,14 +118,14 @@ input[type="radio"].visually-hidden {
   height: 55px;
 
   background-image: url("../img/hotel-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .headline-title {
-  position: absolute;
-  top: 135px;
-  left: calc(50% - 370px);
-
   margin: 0;
+  margin-bottom: 131px;
+
+  text-align: center;
 }
 
 .headline-title-link {
@@ -142,17 +148,9 @@ input[type="radio"].visually-hidden {
   opacity: 0.7;
 }
 
-.headline-image {
-  display: block;
-}
-
 .headline-description {
-  position: absolute;
-  top: 350px;
-  left: calc(50% - 230px);
-
   max-width: 459px;
-  margin: 0;
+  margin: 0 auto;
 
   line-height: 23px;
   text-align: center;
