@@ -46,7 +46,8 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   padding: 0 130px;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main-header {
@@ -62,8 +63,11 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   margin-right: -52px;
   margin-left: 5px;
@@ -178,8 +182,11 @@ input[type="radio"].visually-hidden {
 }
 
 .reviews-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   margin-right: -29px;
   padding: 0;
@@ -318,7 +325,8 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 
   background-color: #ff7931;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
 }
 
@@ -362,8 +370,11 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 -52px 43px 5px;
   padding: 0;
   padding-bottom: 43px;
@@ -394,8 +405,11 @@ input[type="radio"].visually-hidden {
 }
 
 .social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 169px;
   margin: 0 auto;
   padding: 0;
