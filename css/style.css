@@ -235,7 +235,7 @@ img {
   position: relative;
 
   margin-bottom: 50px;
-  padding-top: 33px;
+  padding-top: 34px;
   padding-bottom: 37px;
 
   background-color: #f7f7f7;
@@ -277,7 +277,7 @@ img {
 
 .promo-list {
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
   padding: 0;
 
   text-align: center;
@@ -285,7 +285,24 @@ img {
 }
 
 .promo-item {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
+}
+
+.promo-item::after {
+  content: "";
+
+  display: block;
+  width: 100px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 24px;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.4;
+}
+
+.promo-item:last-child::after {
+  display: none;
 }
 
 .promo-item:last-child {
