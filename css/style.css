@@ -160,9 +160,6 @@ img {
 }
 
 .reviews {
-  position: relative;
-  z-index: 1;
-
   margin-bottom: 22px;
 }
 
@@ -232,33 +229,14 @@ img {
 }
 
 .promo {
-  position: relative;
-
   margin-bottom: 50px;
   padding-top: 34px;
   padding-bottom: 37px;
 
-  background-color: #f7f7f7;
-}
-
-.promo::before {
-  content: "";
-
-  position: absolute;
-  top: -70px;
-  left: calc(50% - 353px);
-
-  width: 707px;
-  height: 707px;
-
-  background-color: #ffffff;
-  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 45%, #f7f7f7 45%);
 }
 
 .promo-wrapper {
-  position: relative;
-  z-index: 1;
-
   max-width: 370px;
   margin: 0 auto;
 }
@@ -368,9 +346,6 @@ img {
 }
 
 .main-footer {
-  position: relative;
-  z-index: 1;
-
   padding-top: 35px;
   padding-bottom: 35px;
 
