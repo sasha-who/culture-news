@@ -368,10 +368,18 @@ img {
       flex-wrap: wrap;
   margin: 0 -52px 43px 5px;
   padding: 0;
-  padding-bottom: 33px;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   list-style: none;
+}
+
+.footer-navigation::after {
+  content: "";
+
+  width: 1170px;
+  height: 1px;
+  margin-top: 35px;
+
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .footer-navigation-item {
