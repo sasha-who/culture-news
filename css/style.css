@@ -437,14 +437,14 @@ img {
   opacity: 0.7;
 }
 
-.social-list-item:nth-child(1) .social-list-link {
+.social-list-link--inst {
   background-image: url("../img/inst-icon.svg");
 }
 
-.social-list-item:nth-child(2) .social-list-link {
+.social-list-link--fb {
   background-image: url("../img/fb-icon.svg");
 }
 
-.social-list-item:nth-child(3) .social-list-link {
+.social-list-link--twit {
   background-image: url("../img/twitter-icon.svg");
 }
