@@ -1,3 +1,3 @@
-# Новости культуры
+# Culture News
 
-Эталонная вёрстка макета «Новости культуры» для участников марафона «Заверстай» от HTML Academy.
+A reference solution for the participants of the HTML and CSS study marathon in [HTML Academy](https://htmlacademy.org/).
